@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>KBÜ Not Hesaplama Sistemi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="kutu">
+        <p align="center" style="height: 25px 15px;"><b>KBÜ NOT HESAPLAYICI</b></p>
+        
+        
+        <h5 style="color: rgb(241, 56, 10);" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Karabük Üniversitesi vize,final ve bütünleme notu hesaplama sistemi.</h1>
+        
+        <hr color="1">
+        <label><input type="checkbox" id="devamsiz"> Devamsızım (F1)</label><br>
+        <label><input type="checkbox" id="sinavaGirdim" checked> Sınava Girdim</label>
+<hr color="1">
+        
+
+        <label>Vize Notu:</label>
+        <input type="number" id="vize"><br><br>
+
+        <label>Yıl İçi Notu (Opsiyonel):</label>
+        <input type="number" id="yilIci"><br><br>
+
+        <label>Final Notu:</label>
+        <input type="number" id="final"><br><br>
+
+        <label>Bütünleme Notu (Opsiyonel):</label>
+        <input type="number" id="butunleme"><br><br>
+
+        <button id="hesaplaBtn">Hesapla</button>
+        <button id="sifirlaBtn">Sıfırla</button>
+
+        <div id="sonuc" style="margin-top: 20px;"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
